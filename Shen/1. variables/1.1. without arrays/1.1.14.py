@@ -23,6 +23,9 @@ def euclid(a, b):
 # модифицированный алгоритм Евклида
 
 
+a = 18
+
+
 def special_euclid(a, b):
     nod = 0
     while not (a == 0 or b == 0):
@@ -37,4 +40,4 @@ def special_euclid(a, b):
     return nod
 
 
-print(special_euclid(18, 42))
+print(special_euclid(a, 42))
